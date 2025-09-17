@@ -91,7 +91,6 @@ BubblePop/
 
 ---
 
-```
 
 ### Sounds
 Drop three `.wav` or `.mp3` files into `BubblePop/Audio/` and replace the placeholders in the sound loader.
