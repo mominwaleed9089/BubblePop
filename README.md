@@ -118,12 +118,8 @@ This project is licensed under the **MIT License** – see [`LICENSE`](./LICENSE
 
 ## Credits
 **Author:** Momin Waleed  
+**Co-Author:** Fajar Sajid
 Code headers and bundle metadata include author attribution.
 
 ---
 
-### Screenshots/GIFs (optional)
-Create a `Screenshots/` folder and drop images like:
-- `home.png` – Start screen  
-- `selector.png` – Ball/background picker  
-- `gameplay.gif` – Short gameplay loop
