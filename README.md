@@ -91,23 +91,14 @@ BubblePop/
 
 ---
 
-## Configuration & Customization
-
-### Author (built-in)
-- **Info.plist** → add custom key: `AuthorName = "Momin Waleed"`  
-- **AuthorInfo.swift**:
-```swift
-public enum AuthorInfo {
-    public static let authorName = "Momin Waleed"
-    public static let authorContact = "mominwaleed9089@gmail.com" 
-}
 ```
 
 ### Sounds
-Drop three `.wav` or `.mp3` files into `BubblePop/Audio/` and replace the placeholders in the sound loader (look for the “// TODO: add pop sounds here” comment).
+Drop three `.wav` or `.mp3` files into `BubblePop/Audio/` and replace the placeholders in the sound loader.
 
 ### Balls & Backgrounds
-- Add images into `Assets.xcassets` (e.g., `BallRed`, `BallBlue`, `BGPurple`, …)  
+- Add images into `Assets.xcassets` (e.g., `BallRed`, `BallBlue`, `BGPurple`, …)
+- Need to code the images in so it works with the GameEngine.
 - Update the arrays in the selector view to include your new asset names.
 
 ### Settings / Persistence
