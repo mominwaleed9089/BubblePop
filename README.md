@@ -5,7 +5,7 @@ A fast, minimalist SwiftUI hyper-casual tap game. Pop balls, stack points, unloc
 
 ## Features
 -  **One-tap gameplay** with snappy feedback
--  **Ball selector** (horizontal scroll) — pick different ball styles
+-  **Ball selector** — pick different ball styles
 -  **Theme/background picker**
 -  **Settings mini-panel** with mute toggle for pop sounds
 -  **Points as in-game currency** (persists locally)
