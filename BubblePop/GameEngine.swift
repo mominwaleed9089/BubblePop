@@ -163,25 +163,25 @@ final class GameEngine: ObservableObject {
                       avoidCenter: true,
                       avoidOthers: true)
             }
-            if !hasGoldBall, lives < 3, chance(0.005) {
+            if !hasGoldBall, lives < 3, chance(0.002) {
                 spawn(.gold,
-                      life: Double.random(in: 0.55...0.75),
-                      despawns: true,
-                      avoidNormal: true,
-                      avoidCenter: true,
-                      avoidOthers: true)
-            }
-            if !hasBlueBall, chance(0.010) {
-                spawn(.blue,
                       life: Double.random(in: 0.45...0.65),
                       despawns: true,
                       avoidNormal: true,
                       avoidCenter: true,
                       avoidOthers: true)
             }
-            if !hasGreenBall, chance(0.010) {
+            if !hasBlueBall, chance(0.04) {
+                spawn(.blue,
+                      life: Double.random(in: 0.43...0.55),
+                      despawns: true,
+                      avoidNormal: true,
+                      avoidCenter: true,
+                      avoidOthers: true)
+            }
+            if !hasGreenBall, chance(0.03) {
                 spawn(.green,
-                      life: Double.random(in: 0.60...0.90),
+                      life: Double.random(in: 0.46...0.75),
                       despawns: true,
                       avoidNormal: true,
                       avoidCenter: true,
