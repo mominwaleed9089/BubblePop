@@ -70,7 +70,7 @@ struct RootView: View {
                     HStack(spacing: 12) {
                         CurrencyPill(amount: progress.currency)
                         Button {
-                            withAnimation(.spring(response: 0.25, dampingFraction: 0.8)) {
+                            withAnimation(.spring(response: 0.60, dampingFraction: 0.90)) {
                                 settings.isMuted.toggle()
                             }
                         } label: {
