@@ -171,7 +171,7 @@ final class GameEngine: ObservableObject {
                       avoidCenter: true,
                       avoidOthers: true)
             }
-            if !hasBlueBall, chance(0.04) {
+            if !hasBlueBall, chance(0.004) {
                 spawn(.blue,
                       life: Double.random(in: 0.43...0.55),
                       despawns: true,
@@ -179,7 +179,7 @@ final class GameEngine: ObservableObject {
                       avoidCenter: true,
                       avoidOthers: true)
             }
-            if !hasGreenBall, chance(0.03) {
+            if !hasGreenBall, chance(0.003) {
                 spawn(.green,
                       life: Double.random(in: 0.46...0.75),
                       despawns: true,
