@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/22383245/README.md)
 # BubblePop
 
-A fast, minimalist SwiftUI hyper-casual tap game. Pop balls, stack points, unlock styles. Built and authored by **Momin Waleed**. Project initiation with author **Fajar Sajid**.
+A fast, minimalist SwiftUI hyper-casual tap game. Pop balls, stack points, unlock styles. Built and authored by **Momin Waleed**. Project initiation with co-author **Fajar Sajid**.
 
 ## Features
 -  **One-tap gameplay** with snappy feedback
