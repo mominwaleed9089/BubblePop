@@ -119,6 +119,9 @@ Drop three `.wav` or `.mp3` files into `BubblePop/Audio/` and replace the placeh
 - Game Center leaderboards  
 - Daily challenges / streak bonuses  
 - iPad & Mac (Catalyst) layouts
+- Time Trial level based mode.
+- Ball and Background packs.
+- Unlockable balls and backgrounds (customised).
 
 ---
 
