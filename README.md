@@ -47,18 +47,46 @@ cd BubblePop
 
 ```
 BubblePop/
-├─ BubblePop.xcodeproj
-├─ BubblePop/                # App target sources
-│  ├─ App/                   # App entry (App.swift), routing
-│  ├─ Game/                  # Game logic, spawn rules, timers
-│  ├─ Views/                 # SwiftUI screens (Start, Game, Settings, About)
-│  ├─ Audio/                 # Pop sounds (placeholders to drop in)
-│  ├─ Resources/             # Info.plist, AUTHOR.txt etc...
-│  └─ AuthorInfo.swift       # Author metadata (compiled into app)
-├─ Assets.xcassets/          # App icon, balls, backgrounds
-├─ README.md
-├─ LICENSE
-└─ AUTHOR.md
+├── BubblePopApp.swift          // App entry point
+├── Models/
+│   ├── Ball.swift              // Ball struct
+│   ├── BallType.swift          // Enum + extensions (colors, icons)
+│   ├── GameMode.swift          // Enum: normal, risk
+│   ├── Level.swift             // (Future: time trial levels)
+│   └── PlayerProgress.swift    // Persistence, unlocks, high scores
+│
+├── Engine/
+│   ├── GameEngine.swift        // Game loop, spawning, scoring, lives
+│   └── AudioManager.swift      // Sound playback
+│
+├── Views/
+│   ├── RootView.swift          // Main menu with neon UI + tips
+│   ├── ModeSelectView.swift    // Choose Normal / Risk+
+│   ├── GameView.swift          // Hosts live game session
+│   ├── BallView.swift          // Renders bubbles / icons
+│   ├── HUDView.swift           // Top HUD (score, timer, lives, pause)
+│   ├── PauseOverlay.swift      // Floating pause menu
+│   ├── GameOverOverlay.swift   // Clean end screen
+│   ├── AchievementsShopView.swift // Unlock balls & backgrounds
+│   └── TipRotator.swift        // Bottom tip text rotator
+│
+├── Resources/
+│   ├── Assets.xcassets/        // App icon, colors, sound files
+│   │   ├── sound1.mp3
+│   │   ├── sound2.mp3
+│   │   ├── sound3.mp3
+│   │   ├── bomb.mp3
+│   │   ├── point1.mp3
+│   │   ├── time1.mp3
+│   │   └── life1.mp3
+│   └── LaunchScreen.storyboard // Optional custom launch
+│
+├── Utilities/
+│   ├── Palette.swift           // Color palettes & backgrounds
+│   └── Extensions.swift        // Array[safe:], Color(hex:)
+│
+└── README.md                   // Project info, setup, gameplay description
+
 ```
 
 ---
@@ -100,7 +128,6 @@ Drop three `.wav` or `.mp3` files into `BubblePop/Audio/` and replace the placeh
 - Haptics & particle effects  
 - Game Center leaderboards  
 - Daily challenges / streak bonuses  
-- Accessibility pass (Dynamic Type, VoiceOver hints)  
 - iPad & Mac (Catalyst) layouts
 
 ---
@@ -112,7 +139,7 @@ Please keep PRs focused and include a brief demo (screens/GIF).
 ---
 
 ## License
-This project is licensed under the **MIT License** – see [`LICENSE`](./LICENSE) for details.
+This project is licensed under the **GNU GENERAL PUBLIC LICENSE v3** – see [`LICENSE`](./LICENSE) for details.
 
 ---
 
