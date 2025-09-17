@@ -53,7 +53,7 @@ BubblePop/
 │  ├─ Game/                  # Game logic, spawn rules, timers
 │  ├─ Views/                 # SwiftUI screens (Start, Game, Settings, About)
 │  ├─ Audio/                 # Pop sounds (placeholders to drop in)
-│  ├─ Resources/             # Info.plist, AUTHOR.txt (optional)
+│  ├─ Resources/             # Info.plist, AUTHOR.txt etc...
 │  └─ AuthorInfo.swift       # Author metadata (compiled into app)
 ├─ Assets.xcassets/          # App icon, balls, backgrounds
 ├─ README.md
