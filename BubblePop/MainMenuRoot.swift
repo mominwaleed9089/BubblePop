@@ -222,7 +222,7 @@ private struct HowToPlaySheet: View {
                 Label("Avoid the red bomb — it removes a life.", systemImage: "xmark.octagon.fill")
                 Label("Blue arrow: +5 points (quick!).", systemImage: "arrow.up.circle.fill")
                 Label("Green clock: +3 seconds.", systemImage: "clock.fill")
-                Label("Gold heart: +1 life (if below 3).", systemImage: "heart.fill")
+                Label("Gold heart: +1 life.", systemImage: "heart.fill")
             }
             .font(.callout)
             .foregroundStyle(.secondary)
