@@ -119,6 +119,7 @@ This project is licensed under the **MIT License** – see [`LICENSE`](./LICENSE
 ## Credits
 **Author:** Momin Waleed  
 **Co-Author:** Fajar Sajid
+
 Code headers and bundle metadata include author attribution.
 
 ---
